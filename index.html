@@ -13,7 +13,7 @@
 </head>
 <body>
     <header id="page-hero" class="site-header">
-        <nav class="site-nav family-sans text-uppercase navbar navbar-expand-md bg-secondary navbar-dark">
+        <nav class="site-nav family-sans text-uppercase navbar navbar-expand-md  navbar-dark">
         <a class="navbar-brand" href="#page-hero">
             <i class="fas fa-cube"></i> Layout Components
         </a>
@@ -24,7 +24,7 @@
         
             
             <section class="collapse navbar-collapse" id="myTogglerNav">
-                <div class="navbar-nav">
+                <div class="navbar-nav ml-auto">
                     <a class="nav-item nav-link" href="#page-hero">home</a>
                     <a class="nav-item nav-link"href="#page-multicolumn">columns</a>
                     <a class="nav-item nav-link" href="#page-media">media</a>
@@ -40,15 +40,23 @@
             
             
         </nav>
-        <section>
-            <h3>HOMEPAGE</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos deserunt, cumque ut sed assumenda temporibus?</p>
+        <section class="layout-hero d-flex align-items-center text-light text-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-11 col-sm-10 col-md-8">
+                            <h3 class="page-section-title">Homepage</h3>
+                            <p class="page-section-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos deserunt, cumque ut sed assumenda temporibus?</p>
+                    </div>
+                </div>
+                
+
+            </div>
         </section>
         
     </header>
     <footer class="site-footer bg-secondary d-flex justify-content-center">
         <section class="layout-social py-5 ">
-            <a class="text-light px-2" href="https://twitter.com/planetoftheweb">
+            <a class="text-light py-2" href="https://twitter.com/planetoftheweb">
                 <i class=" layout-icon fab fa-twitter"></i>
             </a>
             <a class="text-light px-2"href="https://facebook.com/viewsource">
